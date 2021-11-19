@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.body {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    padding: 0;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style: none;
+    color: #E5E7EB;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.logo img {
+    height: auto;
+    width: 6rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image img {
+    height: auto;
+    width: 35rem;
+}
+
+
+
+/************************* 
+HERO 
+*************************/
+/* Header */
+
+.header a, .content p {
+    color: #E5E7EB;
+    font-size: 1.125rem;
+    font-weight: 100;
+}
+
+.content h1 {
+    color: #F9FAF8;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+
+/* Sets the width of the hero container to 70% and centers it */
+.hero .container {
+    width: 70%;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+/* Hero content styles */
+.content h1 {
+    margin-bottom: 0.5rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    gap: 3rem;
+}
+
+.content .description {
+    flex: 1;
+}
+
+
+/************************* 
+RANDOM INFORMATION 
+*************************/
+.random-info {
+    text-align: center;
+    margin: 3rem 0 7.5rem;
+}
+
+.random-info h2 {
+    font-size: 2.25rem;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 3.5rem;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.flex-item img {
+    border-radius: 1rem;
+    border: 0.25rem solid #3882F6;
+    height: auto;
+    max-width: 13rem;
+}
+
+.flex-item {
+    max-width: 15rem;
+    text-align: center;
+    color: #616c7c;
+    font-size: 1.125rem; 
+}
+
+/************************* 
+QUOTE 
+*************************/
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1F2937;
+}
+
+.quote .container {
+    width: 60%;
+    margin: auto;
+    margin: 7rem 0 7.5rem;
+}
+
+.quote .dialog {
+    font-size: 2.25rem;
+    text-align: left;
+    font-weight: 100;
+}
+
+.quote .source {
+    text-align: right;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/************************* 
+CALL TO ACTION
+*************************/
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem 0;
+}
+
+.modal {
+    background-color: #3882F6;
+    border-radius: 7.5px;
+    display: flex;
+    width: 70%;
+    height: 9rem;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+}
+
+.modal h3 {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+.modal div {
+    color: #E5E7EB;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.modal button {
+    border: 2px solid #E5E7EB;
+}
+
+/************************* 
+FOOTER
+*************************/
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    font-size: 1.125rem;
+}
